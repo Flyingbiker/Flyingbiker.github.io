@@ -67,8 +67,7 @@ section{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-#informatiqueLanguages img{
-	height: 80px;
+#informatiqueLanguages img{	
 	width: 80px;
 	margin: 10px;	
 	flex-wrap: wrap;

@@ -1,1 +1,21 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.93 31.18"><defs><style>.cls-1{fill:#de4114;}.cls-2{fill:#e95c1b;}.cls-3{fill:#f0f0f1;}.cls-4{fill:#12100b;}.cls-5{fill:#fff;}</style></defs><title>Plan de travail 1</title><path class="cls-1" d="M22.93,6.08,20.84,28.67l-9.39,2.51L2.09,28.67,0,6.08Z"/><path class="cls-2" d="M11.4,29.27l7.59-2,1.79-19.3H11.4Z"/><path class="cls-3" d="M7.29,13.51H11.4v-2.7H4.15l.07.75.71,7.69H11.4V16.38H7.56ZM8,20.6H5.11L5.51,25l5.88,1.58h0V23.64h0l-3.2-.84L8,20.6Z"/><path class="cls-4" d="M2.13,0h1.4V1.35h1.4V0h1.4V4.22H4.93V2.87H3.53V4.22H2.13V0ZM8.25,1.35H7V0h4V1.35H9.65V4.22H8.25V1.35ZM11.75,0h1.52l.93,1.48L15.13,0h1.52V4.22h-1.4V2.12l-1.11,1.6h0l-1-1.6v2.1h-1.4Zm5.6,0h1.4V2.87h2.1V4.22h-3.5V0Z"/><path class="cls-5" d="M11.4,19.08h3.45l-.32,3.51-3.13.81v2.81l5.74-1.53,0-.46.66-7.11.07-.73H11.4v2.7Zm0-5.58h6.77l0-.61.13-1.37.07-.72h-7V13.5Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DE4114;}
+	.st1{fill:#E95C1B;}
+	.st2{fill:#F0F0F1;}
+	.st3{fill:#12100B;}
+	.st4{fill:#FFFFFF;}
+</style>
+<title>Plan de travail 1</title>
+<path class="st0" d="M34.9,7.9l-2.7,28.8l-12,3.2L8.3,36.7L5.6,7.9H34.9z"/>
+<path class="st1" d="M20.2,37.4l9.7-2.5l2.3-24.6H20.2V37.4z"/>
+<path class="st2" d="M14.9,17.4h5.2v-3.4h-9.2l0.1,1l0.9,9.8h8.2V21h-4.9L14.9,17.4z M15.8,26.4h-3.7l0.5,5.6l7.5,2l0,0v-3.7l0,0
+	l-4.1-1.1L15.8,26.4z"/>
+<path class="st3" d="M8.4,0.1h1.8v1.7h1.8V0.1h1.8v5.4h-1.8V3.8h-1.8v1.7H8.4V0.1z M16.1,1.9h-1.6V0.1h5.1v1.7h-1.7v3.7h-1.8V1.9z
+	 M20.6,0.1h1.9L23.7,2l1.2-1.9h1.9v5.4h-1.8V2.8l-1.4,2l0,0l-1.3-2v2.7h-1.8L20.6,0.1z M27.7,0.1h1.8v3.7h2.7v1.7h-4.5V0.1z"/>
+<path class="st4" d="M20.2,24.4h4.4l-0.4,4.5l-4,1v3.6l7.3-1.9V31l0.8-9.1l0.1-0.9h-8.2V24.4z M20.2,17.3h8.6v-0.8l0.2-1.7l0.1-0.9
+	h-8.9L20.2,17.3L20.2,17.3z"/>
+</svg>
