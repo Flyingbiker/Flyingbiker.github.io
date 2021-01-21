@@ -17,14 +17,13 @@ h3,p{
 .framePerson{
 	background-color: rgba(245,128,62,1);
 	color: #fff;
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px 30px;
 	display: inline-block;
 	margin-bottom: 20px;
 }
 section{
-	position: relative;	
-	/* height: calc(100vh - 56px); */
+	position: relative;		
 	scroll-margin-top: 68px;
 	margin: 0 20px;
 }
@@ -79,8 +78,20 @@ section{
 }
 #informatiqueLanguages {
 	width:100%;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#softSkills{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#softSkills li{
+	list-style: none;
+}
+#informatiqueLanguages{
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 0px;
 }
 #informatiqueLanguages img{
 	height: 80px;
@@ -88,6 +99,20 @@ section{
 	margin: 10px;	
 	flex-wrap: wrap;
 }
+#skills li{
+	list-style: none;
+	padding: 5px 0;
+}
+#skills .col-md{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("../img/column.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+	box-shadow: 2px 6px 7px 2px rgba(245,128,62,0.6);
+	margin: 5px 10px;
+}
+
 /* animation CV */
 #logo-cv{
 	width: 100px;
@@ -145,6 +170,8 @@ section{
 	  transform: translate(0);
 	}
   }
+
+/* time line */
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
   * {
 	box-sizing: border-box;
@@ -743,6 +770,11 @@ section{
 	.fullPage{
 		height: auto;
 	}	
+	#skills .col-md-4{
+		background-image: none;
+		border-bottom: solid 1px #F5803E;
+		margin-bottom: 10px;		
+	}
   }
   @media screen and (max-height: 800px) {
 	.fullPage{
