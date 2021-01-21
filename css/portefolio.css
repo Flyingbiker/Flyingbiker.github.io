@@ -742,6 +742,11 @@ section{
 	}
 	.fullPage{
 		height: auto;
+	}	
+  }
+  @media screen and (max-height: 800px) {
+	.fullPage{
+		height: auto;
 	}
   }
 
@@ -791,6 +796,9 @@ section{
 		width: 40%;
 		margin: -38px 0 0 0;
 	 }
+	 #informatiqueLanguages img{
+		max-width: 150px;
+	}
   }
   
   @media screen and (max-width: 640px) {
