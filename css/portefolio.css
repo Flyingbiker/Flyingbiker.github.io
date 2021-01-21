@@ -1,5 +1,8 @@
 *{
-	scroll-behavior: smooth;	
+	scroll-behavior: smooth;
+	margin: 0;	
+	padding: 0;
+	box-sizing: border-box;
 }
 body{
 	position: relative;
@@ -37,8 +40,20 @@ section{
 	background-size: cover;
 	background-position: center;
 	background-image: linear-gradient(0deg, rgba(245,128,62,0.7) 0%, rgba(255,186,163,0.5) 50%, rgba(245,128,62,0.7) 100%),
-	url("../img/pexels-kevin-ku-577585.jpg");	
+	url("../img/pexels-kevin-ku-577585.jpg");
+	background-attachment: fixed;	
 }
+.parallax{
+	background-image: url("../img/pexels-hitesh-choudhary-879109.jpg");
+	height: 35vh;
+	width: 100vw;
+	margin-left: 0;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+
 #logo-cv{
 	border-radius: 50%;
 	height: 90px;
@@ -255,7 +270,7 @@ section{
   }
   
   .timeline-box p {
-	 background-color: #f7f7f7;
+	 background-color: rgba(245,128,62,0.3);
 	 padding: 33px 40px;
 	 font-size: 16px;
 	 color: #000000;
@@ -264,18 +279,29 @@ section{
 	 width: 65%;
 	 margin: 24px 0 0 50px;
 	 position: relative;
+	 text-align: center;
   }
   
   .timeline-box p::before {
 	 width: 0;
 	 height: 0;
-	 border-bottom: 15px solid #f7f7f7;
+	 border-bottom: 15px solid rgba(245,128,62,0.3);
 	 border-right: 17px solid transparent;
 	 position: absolute;
-	 top: -14px;
+	 top: -15px;
 	 left: 0;
 	 content: "";
   }
+
+  .timeline-box div{	  
+	  display: inline-block;
+	  text-align: center;
+	  width: 100%;
+  }
+  .timeline-box  img{	  
+	height: 50px;
+	width: 150px;
+}
   
   .timeline-row:last-child {
 	 justify-content: center;
