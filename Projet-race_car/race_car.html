@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv=X-UA-Compatible>
+  <meta content="width=device-width,initial-scale=1" name=viewport>
+  <title>Race Car</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/mon_style.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+
+<body class="home" id="body">
+  <div class="container">
+    <form>
+      <div>
+        <input type="text" id="inputNumero" placeholder="Numéro">
+        <span class="error" id="errorNumero">Age compris entre 0 et 99 ans</span>
+      </div>
+      <div>
+        <input type="color" id="inputColor">
+        <span class="error" id="errorColor">couleur au format #000FFF ou #FF0</span>
+      </div>
+      <input type="submit" value="AJOUTER" class="btn" id="btn-ajouter">
+      <span class="btn btn-success">1,2,3 Partez !</span>
+    </form>
+
+  </div>
+  <div id="piste">
+    <div id="depart"></div>
+    <div id="arrivee"></div>
+  </div>
+
+  <section>
+    <h4>Commandes pour faire avancer la voiture du haut</h4>
+    <ul>
+      <li>Touche d pour avancer</li>
+      <li>Touche z pour monter</li>
+      <li>Touche s pour descendre</li>
+    </ul>
+    <h4>Commandes pour faire avancer la voiture du bas</h4>
+    <ul>
+      <li>Touche i pour avancer</li>
+      <li>Touche k pour monter</li>
+      <li>Touche l pour descendre</li>
+    </ul>
+  </section>
+  
+  <script src="js/script.js"></script>
+</body>
+
+</html>

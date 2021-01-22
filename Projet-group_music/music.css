@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+i{
+    padding: 5px;
+}
+
+.adress{
+    margin-bottom:4px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    font-style: italic;
+}
+
+.btn-primary{
+    background-color: grey;
+    border-color: grey;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.gray{
+    filter: grayscale(1);
+}
