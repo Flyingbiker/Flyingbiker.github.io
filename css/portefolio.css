@@ -38,7 +38,7 @@ section{
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	background-image: linear-gradient(0deg, rgba(245,128,62,0.7) 0%, rgba(255,186,163,0.5) 50%, rgba(245,128,62,0.7) 100%),
+	background-image: linear-gradient(0deg, rgba(245,128,62,0.7) 0%,  rgba(245,128,62,0.5) 50%, rgba(245,128,62,0.7) 100%),
 	url("../img/pexels-kevin-ku-577585.jpg");
 	background-attachment: fixed;	
 }
@@ -60,7 +60,7 @@ section{
 	top: 150px;
 }
 #mySelf{
-	background-color: rgba(245, 129, 62, 0.3);
+	background-color: rgba(245, 129, 62, 0.5);
 }
 .font-Permanent-Marker{
 	font-family: 'Permanent Marker', cursive;	
@@ -98,6 +98,16 @@ section{
 	/* width: 80px; */
 	margin: 10px;	
 	flex-wrap: wrap;
+	scale: 1;
+	top:0;
+	transition: all 1s;
+}
+#informatiqueLanguages img:hover{
+	scale: 1.4;
+	top: -15px;
+}
+#skills{
+	background-color: rgb(226, 226, 226);
 }
 #skills li{
 	list-style: none;
@@ -111,6 +121,19 @@ section{
 	border-radius: 20px;
 	box-shadow: 2px 6px 7px 2px rgba(245,128,62,0.6);
 	margin: 5px 10px;
+	scale: 1;
+	transition: all 1s;
+}
+#skills .col-md:hover{	
+	scale: 1.1;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("../img/column.png"), rgba(255, 255, 255, 1);
+}
+#english{
+	border-radius: 20px;
+	padding: 15px 15px 0 15px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)),url("../img/english-flag.png");
+	background-size: auto;
+	background-position: center;
 }
 
 /* animation CV */
@@ -171,6 +194,7 @@ section{
 	}
   }
 
+
 /* time line */
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
   * {
@@ -211,7 +235,7 @@ section{
 	 transform: translate(50%, -50%);
 	 -webkit-transform: translate(50%, -50%);
 	 content: "";
-	 background-image: url('https://cdn3.iconfinder.com/data/icons/arrow-outline-8/32/left-256.png');
+	 background-image: url('../img/left-arrow.png');
 	 width: 40px;
 	 height: 40px;
 	 background-repeat: no-repeat;
@@ -222,7 +246,7 @@ section{
 	 width: 40px;
 	 height: 40px;
 	 content: "";
-	 background-image: url('https://cdn3.iconfinder.com/data/icons/arrow-outline-8/32/left-256.png');
+	 background-image: url('../img/left-arrow.png');
 	 background-repeat: no-repeat;
 	 right: 0;
 	 top: 50%;
@@ -271,21 +295,21 @@ section{
 	 background: transparent;
 	 border-radius: 100%;
 	 z-index: 0;
-	 border: 2px solid #e5e5e5;
+	 border: 2px solid #f5803e;
 	 transform: translate(-50%, -50%);
 	 -webkit-transform: translate(-50%, -50%);
   }
   
   .timeline-row:first-child .timeline-box:first-child h6 {
-	 background-color: #c81212;
+	 background-color: #f5803e;
 	 border: 10px solid #fff;
 	 color: #fff;
   }
   
   .timeline-box h6 {
 	 position: relative;
-	 color: #c81212;
-	 border: 2px solid #e5e5e5;
+	 color: #f5803e;
+	 border: 2px solid #f5803e;
 	 width: 104px;
 	 height: 104px;
 	 border-radius: 100%;
@@ -297,7 +321,7 @@ section{
   }
   
   .timeline-box p {
-	 background-color: rgba(245,128,62,0.3);
+	 background-color: rgba(245,128,62,0.5);
 	 padding: 33px 40px;
 	 font-size: 16px;
 	 color: #000000;
@@ -312,7 +336,7 @@ section{
   .timeline-box p::before {
 	 width: 0;
 	 height: 0;
-	 border-bottom: 15px solid rgba(245,128,62,0.3);
+	 border-bottom: 15px solid rgba(245,128,62,0.5);
 	 border-right: 17px solid transparent;
 	 position: absolute;
 	 top: -15px;
@@ -347,7 +371,7 @@ section{
 	 background-image: none;
 	 transform: none;
 	 z-index: 0;
-	 border-top: 2px dotted #e5e5e5;
+	 border-top: 2px dotted #f5803e;
   }
   
   .timeline-row:nth-last-child(1):nth-child(even):after {
@@ -368,7 +392,7 @@ section{
 	 font-size: 15px;
 	 text-transform: uppercase;
 	 color: #fff;
-	 background-color: #c81212;
+	 background-color: #f5803e;
 	 border: 0;
 	 width: 80px;
 	 height: 80px;
@@ -380,7 +404,7 @@ section{
   }
   
   .timeline-row .horizontal-line {
-	 border-top: 2px dotted #e5e5e5;
+	 border-top: 2px dotted #f5803e;
 	 width: calc(100% - 100px);
 	 margin: 0 auto;
 	 position: absolute;
@@ -394,7 +418,7 @@ section{
 	 margin: 0;
 	 padding: 0;
 	 width: 2px;
-	 border-right: 2px dotted #e5e5e5;
+	 border-right: 2px dotted #f5803e;
 	 height: calc(100% - 100px);
 	 position: absolute;
 	 top: 0;
@@ -410,11 +434,11 @@ section{
   
   .corner {
 	 position: absolute;
-	 border-right: 2px dotted #e5e5e5;
+	 border-right: 2px dotted #f5803e;
 	 width: 50px;
 	 height: 50px;
 	 right: 0;
-	 border-top: 2px dotted #e5e5e5;
+	 border-top: 2px dotted #f5803e;
 	 top: 0px;
 	 border-radius: 0 70px 0 0;
   }
@@ -424,7 +448,7 @@ section{
 	 top: inherit;
 	 border-radius: 0;
 	 border-top: 0;
-	 border-bottom: 2px dotted #e5e5e5;
+	 border-bottom: 2px dotted #f5803e;
 	 border-radius: 0 0 70px 0;
 	 right: 0;
   }
@@ -432,7 +456,7 @@ section{
   .timeline-row:nth-child(2n+2) .corner {
 	 right: inherit;
 	 left: 0;
-	 border-left: 2px dotted #e5e5e5;
+	 border-left: 2px dotted #f5803e;
 	 border-right: 0;
 	 border-radius: 70px 0 0 0;
   }
@@ -664,6 +688,9 @@ section{
 		width: 26px;
 		height: 26px;
 	 }
+	 .timeline-box:last-child p{
+		left: -20px;
+	 }
 	 .timeline-row {
 		padding-bottom: 0;
 	 }
@@ -699,9 +726,9 @@ section{
 	 }
 	 .timeline-box p::before {
 		left: auto;
-		right: -16px;
-		border-bottom: 0px solid #f7f7f7;
-		border-top: 15px solid #f7f7f7;
+		right: -17px;
+		border-bottom: 0px solid   rgba(245,128,62,0.5);
+		border-top: 15px solid   rgba(245,128,62,0.5);
 		top: 0;
 	 }
 	 .timeline-box:nth-child(2n+2) {
@@ -714,8 +741,8 @@ section{
 	 .timeline-box:nth-child(2n+2) p::before {
 		left: -16px;
 		right: auto;
-		border-bottom: 0px solid #f7f7f7;
-		border-top: 15px solid #f7f7f7;
+		border-bottom: 0px solid  rgba(245,128,62,0.5);
+		border-top: 15px solid  rgba(245,128,62,0.5);
 		top: 0;
 		border-left: 15px solid transparent;
 	 }
@@ -729,8 +756,8 @@ section{
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(2n+1) p::before {
 		left: -16px;
 		right: auto;
-		border-bottom: 0px solid #f7f7f7;
-		border-top: 15px solid #f7f7f7;
+		border-bottom: 0px solid   rgba(245,128,62,0.5);
+		border-top: 15px solid   rgba(245,128,62,0.5);
 		top: 0;
 		border-left: 15px solid transparent;
 	 }
@@ -740,8 +767,8 @@ section{
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(2n+2) p::before {
 		left: auto;
 		right: -16px;
-		border-bottom: 0px solid #f7f7f7;
-		border-top: 15px solid #f7f7f7;
+		border-bottom: 0px solid   rgba(245,128,62,0.5);
+		border-top: 15px solid   rgba(245,128,62,0.5);
 		top: 0;
 	 }
 	 .verticle-line {
@@ -761,7 +788,17 @@ section{
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(3)::after {
 		display: block;
 	 }
+	 #experiences .timeline-box:nth-child(2n) div{
+		display: block;
+		width: 50%;				
+		margin: 0 50vw;
+	 }
+	 #experiences .timeline-box:nth-child(2n+1) div{
+		display: block;
+		width: 50%;
+	 }
   }
+  
   @media screen and (max-width: 900px) {
 	section{
 		position: relative;	
@@ -868,6 +905,7 @@ section{
 	 }
 	 .timeline-row:last-child {
 		justify-content: flex-start;
+		display: inline;
 	 }
 	 .timeline-row:last-child .timeline-box {
 		margin: 0 0 0 6px;
@@ -886,18 +924,18 @@ section{
 	 }
 	 .timeline-box p::before,
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(2n+2) p::before {
-		left: -14px;
+		left: -15px;
 		right: 0;
-		border-bottom: 0px solid #f7f7f7;
-		border-top: 15px solid #f7f7f7;
+		border-bottom: 0px solid rgba(245,128,62,0.5);
+		border-top: 15px solid  rgba(245,128,62,0.5);
 		top: 0;
-		border-top: 15px solid #f7f7f7;
+		border-top: 15px solid rgba(245,128,62,0.5);
 		border-left: 15px solid transparent;
 		border-right: 0px solid transparent;
 	 }
 	 .timeline-box:nth-child(2n+2) p::before,
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(2n+1) p::before {
-		left: -14px;
+		left: -15px;
 	 }
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(2n+2) {
 		text-align: right;
@@ -912,7 +950,7 @@ section{
 	 .timeline-box::after,
 	 .timeline-row:nth-child(2n+2) .timeline-box::after {
 		left: 35px;
-	 }
+	 }	 
   }
   
   @media screen and (max-width: 480px) {
@@ -941,5 +979,8 @@ section{
 	 }
 	 .timeline-sec {
 		padding: 0px 0 50px 0;
+	 }
+	 .timeline-box:last-child p {
+		left : auto;
 	 }
   }
