@@ -788,15 +788,28 @@ section{
 	 .timeline-row:nth-child(2n+2) .timeline-box:nth-child(3)::after {
 		display: block;
 	 }
-	 #experiences .timeline-box:nth-child(2n) div{
+	 #experiences .timeline-row:nth-child(2n) .timeline-box:nth-child(2n) div{
+		display: block;
+		width: 50%;				
+	}	
+	#experiences .timeline-row:nth-child(2n) .timeline-box:nth-child(2n+1) div{
+		display: block;
+		width: 50%;
+		margin: 0 50vw;
+	 }
+	 #experiences .timeline-row:nth-child(2n+1) .timeline-box:nth-child(2n) div{
 		display: block;
 		width: 50%;				
 		margin: 0 50vw;
 	 }
-	 #experiences .timeline-box:nth-child(2n+1) div{
+	 #experiences .timeline-row:nth-child(2n+1) .timeline-box:nth-child(2n+1) div{
 		display: block;
 		width: 50%;
-	 }
+	 }	
+
+	#mySelf, #skills, #experiences {
+		padding: 25px 0;
+	}
   }
   
   @media screen and (max-width: 900px) {
