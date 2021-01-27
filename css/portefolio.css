@@ -67,7 +67,7 @@ section{
 	position: relative;
 	top: 150px;
 }
-#mySelf{
+#mySelf, #realisationsSection{
 	background-color: rgba(245, 129, 62, 0.5);
 }
 .font-Permanent-Marker{
