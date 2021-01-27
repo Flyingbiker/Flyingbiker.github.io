@@ -157,6 +157,25 @@ section{
 #english:hover div{
 	opacity: 0;
 }
+.modal-content{
+	border-radius: 10px !important;
+}
+.modal .modal-body h5{
+	text-decoration: underline;
+}
+.modal li{
+	list-style: circle;
+	margin-left: 15px;
+}
+.modal .modal-footer button{
+	background-color: #F5803E;
+	color: #fff;
+}
+.modal .modal-header, .modal .modal-header button{
+	background-color: #F5803E;
+	color: #fff;
+	opacity: 1;
+}
 
 /* animation CV */
 #logo-cv{
@@ -353,6 +372,7 @@ section{
 	 margin: 24px 0 0 50px;
 	 position: relative;
 	 text-align: center;
+	 cursor: pointer;
   }
   
   .timeline-box p::before {
@@ -371,10 +391,16 @@ section{
 	  text-align: center;
 	  width: 100%;
   }
-  .timeline-box  img{	  
+  .timeline-box >div img{	  
 	height: 50px;
 	width: 150px;
-}
+  }
+  .timeline-box p img{
+	  height: 30px;
+	  position: absolute;
+	  bottom: 5px;
+	  right: 5px;
+  }
   
   .timeline-row:last-child {
 	 justify-content: center;
