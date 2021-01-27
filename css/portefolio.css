@@ -42,7 +42,7 @@ section{
 	url("../img/pexels-kevin-ku-577585.jpg");
 	background-attachment: fixed;	
 }
-.parallax{
+.parallax-1{
 	background-image: url("../img/pexels-hitesh-choudhary-879109.jpg");
 	height: 35vh;
 	width: 100%;
@@ -51,7 +51,15 @@ section{
 	background-size: cover;
 	background-position: center;
 }
-
+.parallax-2{
+	background-image: url("../img/pexels-lumn-316465.jpg");
+	height: 45vh;
+	width: 100%;
+	margin-left: 0;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
 
 #logo-cv{
 	border-radius: 50%;
