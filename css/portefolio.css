@@ -176,6 +176,10 @@ section{
 	color: #fff;
 	opacity: 1;
 }
+#contactMe{
+	background-color: #0C223F;
+	color: #fff;
+}
 
 /* animation CV */
 #logo-cv{
@@ -306,7 +310,7 @@ section{
   .timeline-row:nth-child(2n+2) .timeline-box::after {
 	 transform: translate(50%, -50%) rotate(180deg);
 	 -webkit-transform: translate(50%, -50%) rotate(180deg);
-	 left: -50%;
+	 left: 50%;
   }
   
   .timeline-row:nth-child(2n+2) .timeline-box:nth-child(3)::after {
