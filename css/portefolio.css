@@ -70,6 +70,10 @@ section{
 #mySelf, #realisationsSection{
 	background-color: rgba(245, 129, 62, 0.5);
 }
+#mySelf #photo-cv{
+	height: 300px;
+}
+
 .font-Permanent-Marker{
 	font-family: 'Permanent Marker', cursive;	
 }
@@ -179,6 +183,9 @@ section{
 #contactMe{
 	background-color: #0C223F;
 	color: #fff;
+}
+#contactMe form{
+	background-color: transparent;
 }
 
 /* animation CV */
