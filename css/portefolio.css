@@ -112,7 +112,7 @@ section{
 	flex-wrap: wrap;
 	scale: 1;
 	top:0;
-	transition: all 1s;
+	transition: all 0.3s;
 }
 #informatiqueLanguages img:hover{
 	scale: 1.4;
@@ -153,14 +153,7 @@ section{
 	opacity: 1;	
 	transition: all 0.3s;
 }
-#english:hover {
-	background: url("../img/english-flag.png");
-	background-size: auto;
-	background-position: center;
-}
-#english:hover div{
-	opacity: 0;
-}
+
 .modal-content{
 	border-radius: 10px !important;
 }
@@ -184,8 +177,17 @@ section{
 	background-color: #0C223F;
 	color: #fff;
 }
-#contactMe form{
-	background-color: transparent;
+#contactMe .btn{
+	color: #fff;
+	border: 2px solid #fff;
+	display: block;
+	width: 50%;
+	margin: 15px auto;	
+	transition: all 0.3s;
+}
+#contactMe .btn:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	scale: 1.1;
 }
 
 #realisationsSection .card{
@@ -197,6 +199,7 @@ section{
 	scale: 1.05;
 	filter: grayscale(0);
 }
+
 
 /* animation CV */
 #logo-cv{
