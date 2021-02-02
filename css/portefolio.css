@@ -427,7 +427,12 @@ section{
 	  position: absolute;
 	  bottom: 5px;
 	  right: 5px;
+	  transition: all 0.3s;
   }
+  .timeline-box p:hover img{
+	scale: 1.3;
+	bottom: 10px;
+}
   
   .timeline-row:last-child {
 	 justify-content: center;
