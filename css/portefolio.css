@@ -188,6 +188,16 @@ section{
 	background-color: transparent;
 }
 
+#realisationsSection .card{
+	/* scale: (1); */
+	filter: grayscale(0.8);
+	transition: all 0.5s;
+}
+#realisationsSection .card:hover{
+	scale: 1.05;
+	filter: grayscale(0);
+}
+
 /* animation CV */
 #logo-cv{
 	width: 100px;
