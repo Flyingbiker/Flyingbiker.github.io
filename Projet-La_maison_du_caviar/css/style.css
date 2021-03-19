@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+h1{
+    font-size: 1em;
+    padding: 40px 0 0 0;
+    text-shadow: 3px 3px 2px #000000;
+}
+h2{
+    font-size: 1.5rem;
+    color: #000F9F;    
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 10px;    
+    border-bottom: solid 1px #000F9F;;
+    margin: auto;
+}
+h3{
+    font-size: 1.2em;
+    color: #000F9F;
+}
+h4{
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+h5{
+    font-size: 1.2rem;
+    text-transform: uppercase;   
+    padding: 5px 25px; 
+}
+h5::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #000F9F;
+    margin: auto;
+}
+#conseil h5::after{   
+    background-color: #fff;    
+}
+h6{
+    padding-top: 30px;
+}
+p{
+    padding: 0 25px;
+}
+li{
+    list-style: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000F9F;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #000F9F;
+}
+.dropdown-item:focus, .dropdown-item{
+    color: #000F9F;
+}
+#first-section{
+    background-color: #F4F4F4;
+}
+#slider{
+    background-image: url("../img/Header-V1.jpg"), linear-gradient(#eee, #eee);    
+    background-repeat: no-repeat;
+    background-size: 100% 400px ;    
+}
+
+.promo{
+    background-color: rgba(255, 255, 255, 0.5);    
+    font-weight: bold;
+    padding: 30px 80px;
+    display: inline-block;
+}
+.promo span{
+    font-size: 0.8em;
+}
+.promo a{
+    background-color: #fff;    
+    padding: 15px 25px;
+    color: #000;
+}
+.col-md-4{
+    padding: 0 5px 25px 5px;
+}
+
+#best-sells .container-fluid{
+    background-image: url("../img/map.png");
+    padding-bottom: 150px;
+}
+#best-sells img{
+    width: 260px;        
+    position: relative;
+}
+.bg-blue{
+    background-color: #000F9F;
+    color: #fff;
+}
+.logo-insta{
+    height: 60px;
+    padding: 5px 50px 5px 20px;   
+    position: absolute;
+    left: -50px;
+    top:20px;
+}
+.savoir-plus{
+    color: #fff;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+.conseil{    
+    width: 260px;
+}
+.autres-recettes{
+    color: #000F9F;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+.autres-recettes a{
+    color: #000F9F;
+}
+.card-blue {
+ position: absolute;
+ top: 110px;
+ left: 135px; 
+}
+#recette{
+    background-color: #fff;   
+    position: relative; 
+    color : #000F9F
+}
+.card-recette{    
+    top: 100px;
+    left : 135px;
+    z-index: 1;
+}
+.recette-text{
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+#engagements p{
+    color: #000F9F;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#diaporama{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+footer{
+    padding: 50px 0;
+}
+footer h3{
+    color: #fff;
+}
+footer h6{
+    padding-top: 0;
+}
+footer .col-md-5 p{
+    font-size: 0.9rem;
+    padding:0;
+    line-height: 15px;
+    margin-bottom: 2px;
+}
+footer .row:last-child p{
+    margin-bottom: 0;    
+}
+footer li{
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+.vertical-lign{       
+    border-right : solid 1px #fff;
+}
+footer .col-md-6{
+    padding: 0 30px;
+}
+#first-section .col-md-4 div{
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 1;
+    transition: 1s ; 
+}
+#first-section .col-md-4 div:hover{
+    opacity: 0.7;       
+    
+}
+#conseil{
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+    padding-top: 0px;
+}
+#conseil img:hover{
+    opacity: 0.7;    
+}
+.card-recette{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 1);    
+}
+.card-recette img:hover{
+    opacity: 0.7;    
+}

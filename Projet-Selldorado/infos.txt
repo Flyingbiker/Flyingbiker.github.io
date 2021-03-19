@@ -1,0 +1,13 @@
+typo :
+font-family: "Open Sans", sans-serif
+
+gradient :
+linear-gradient(150deg, #7AD2E6 0%, #07A9C3 100%)
+
+couleurs :
+orange : #FD8800
+jaune : #FFCE35
+bleu : #46BFD3
+bleu clair : #C5E7EE
+gris clair : 7a7a7a
+gris foncé : #545454

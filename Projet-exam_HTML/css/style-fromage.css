@@ -1,0 +1,276 @@
+* {
+  color: #b79c7b;  
+  font-family: 'Josefin Sans', sans-serif;
+  transition: all 0.5s;
+}
+
+header .navbar-brand img {
+  width: 100px
+}
+
+header .nav-link,
+header .dropdown-item {
+  color: #b79c7b
+}
+
+header .nav-link:after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  border: 0;
+  background: #b79c7b;
+  margin: 0px auto;
+  transition: all 1s
+}
+
+header .nav-link:hover:after {
+  width: 80%
+}
+
+header .navbar-light .navbar-nav .nav-link,
+header .navbar-light .navbar-nav .active > .nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show > .nav-link,
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #b79c7b;
+  text-transform: uppercase
+}
+footer{
+  margin-top: 80px;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.5em
+}
+
+footer h2:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: #b79c7b;
+  margin: 20px auto
+}
+
+footer > div {
+  padding: 50px 0
+}
+
+footer > div:first-child {
+  background-color: #f4f4f4;
+  padding-bottom: 40px;
+  text-align: center
+}
+
+footer > div:last-child {
+  background-color: #b79c7b;
+  padding-bottom: 40px
+}
+
+footer > div:last-child * {
+  color: #FFF
+}
+
+footer > div:last-child div.col-md-6 {
+  margin-top: 20px
+}
+
+@media (min-width: 768px) {
+  footer > div:last-child div.col-md-6 {
+    margin-top: 0px;
+    padding-left: 100px
+  }
+}
+
+footer > div:last-child ul {
+  margin: 20px 0;
+  padding: 0
+}
+
+@media (min-width: 576px) {
+  footer > div:last-child ul {
+    margin: 0
+  }
+}
+
+footer > div:last-child ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em
+}
+
+footer p {
+  word-break: break-word
+}
+
+footer p b {
+  display: block
+}
+
+footer .logo {
+  width: 200px
+}
+
+.img-zoom {
+  overflow: hidden;
+  position: relative
+}
+
+.img-zoom div:not(.overlay) {
+  transition: all 1s;
+  width: 100%;
+  height: 100%;
+  background-size: cover
+}
+
+.img-zoom div.overlay {
+  opacity: 0;
+  background: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 1s
+}
+
+.img-zoom:hover div:not(.overlay) {
+  transform: scale(1.2)
+}
+
+.img-zoom:hover div.overlay {
+  opacity: 0.5
+}
+
+/* mon code */
+body{
+  text-align: center;
+}
+h1{
+  background: url("../img/entete.jpg");  
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-shadow: 0 0 5px #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#slider p{
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+#slider p span{
+  font-weight: bold;
+}
+section:not(#slider) {
+  margin: 30px auto;
+}
+h2{
+  padding:30px 0;  
+  font-weight: lighter;
+}
+h2::after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  border-bottom: solid 1px #b79c7b;
+  margin: auto;
+}
+h3{
+  font-size: 1.2rem;
+  font-weight: lighter;  
+}
+.text-card{
+  position: relative;
+  top: -45px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  width: 80%;
+  margin: auto;
+}
+section p{
+  text-align: left;
+  margin: 0;
+}
+#discover span{
+  font-weight: bold;
+}
+.label{
+  background-color: #f4f4f4;
+  font-weight: 700;
+  transition: all 1s;
+}
+#cheese-cart .col-md-6{
+  padding: 10px 10px;
+}
+
+@media (max-width: 768px) {
+  #slider h1{
+    text-align: left;
+    text-shadow: 0 0 0 #fff;
+    font-weight: bolder;
+  }
+  .text-card{
+    position: relative;
+    top: 0;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+}
+
+/* hover effect */
+.cheese{
+  position: relative;
+}
+.cheese .overlay{
+  background-color: #b79c7b;
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  transition: all 1s;
+}
+.cheese-in-cart {
+  opacity: 0;
+  background-color: #a79c7b;
+  position: absolute;
+  top: 50%;
+  left:50%; 
+  transform: translate(-50%, -50%); 
+  transition: all 1s;
+}
+.cheese-in-cart p, .cheese-in-cart span{
+  color: #FFF;
+  padding: 20px;
+  position: relative;
+}
+.cheese-in-cart span{
+ font-size: 1.8rem;
+}
+.cheese-in-cart img{
+  position: absolute;    
+  transform: translate(-50%, -50%);  
+}
+.cheese:hover .overlay{
+  opacity: 0.5;
+}
+.cheese:hover .cheese-in-cart{
+  opacity:1;
+}
+.cheese:hover .label{
+  background-color: #b79c7b;
+}
+.cheese:hover .label p{
+  color:#fff;
+}
