@@ -70,9 +70,6 @@ section{
 #mySelf, #realisationsSection{
 	background-color: rgba(245, 129, 62, 0.5);
 }
-#mySelf #photo-cv{
-	height: 300px;
-}
 
 .font-Permanent-Marker{
 	font-family: 'Permanent Marker', cursive;	
