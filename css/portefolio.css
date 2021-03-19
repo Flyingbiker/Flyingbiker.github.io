@@ -68,7 +68,7 @@ section{
 	top: 150px;
 }
 #mySelf, #realisationsSection{
-	background-color: rgba(245, 129, 62, 0.5);
+	background-color: rgba(135, 89,26, 0.5);
 }
 
 .font-Permanent-Marker{
@@ -198,6 +198,12 @@ section{
 #realisationsSection .card:hover{
 	scale: 1.05;
 	filter: grayscale(0);
+}
+#realisationsSection .card > img:first-child{
+	position: absolute;
+}
+#realisationsSection .card:hover > img:first-child{
+	opacity:0;
 }
 
 

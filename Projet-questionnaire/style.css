@@ -1,0 +1,43 @@
+#questionnaire{
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#questionnaire .q{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#questionnaire input{
+    margin-left : 30px;
+    display: inline-block;
+}
+
+.erreur{
+    text-align: center;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.juste{
+    border: solid 1px green;
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.faux{
+    border: solid 1px red;
+    background-color: rgba(128, 0, 0, 0.5);
+}
+
+.bonneReponse:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #33ff00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
